@@ -1,0 +1,1 @@
+export const SUPERHEROES_URL = 'https://superheroapi.com/api/2446536712283692';
