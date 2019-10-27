@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 
+import { Container, Row, Col } from 'react-bootstrap';
 import { HEROES, VILLAINS } from '../../constants/heroes';
 
 import MyCard from '../../components/MyCard/MyCard.component';
