@@ -1,3 +1,14 @@
+.myCard {
+	cursor: pointer;
+}
+
 .progress {
 	background-color: transparent;
+}
+
+.saturate {
+	opacity: 0.5
+}
+
+.powerstats {
 }
