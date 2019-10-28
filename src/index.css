@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
 body {
+  font-family: 'Staatliches', cursive;
   margin: 0;
   color: white;
   background: #780206;  /* fallback for old browsers */

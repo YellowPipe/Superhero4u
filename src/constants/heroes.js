@@ -2,6 +2,7 @@ export const HEROES = {
 	1: {
 		  "id": "644",
 		  "name": "Superman",
+		  "salary": "300000",
 		  "powerstats": {
 		    "intelligence": "94",
 		    "strength": "100",
@@ -56,6 +57,7 @@ export const HEROES = {
 	2: {
 	      "id": "346",
 	      "name": "Iron Man",
+	      "salary": "90000",
 	      "powerstats": {
 	        "intelligence": "100",
 	        "strength": "85",
@@ -109,6 +111,7 @@ export const HEROES = {
 	3: {
       "id": "69",
       "name": "Batman",
+      "salary": "85000",
       "powerstats": {
         "intelligence": "81",
         "strength": "40",
@@ -165,6 +168,7 @@ export const VILLAINS = {
 	  "response": "success",
 	  "id": "655",
 	  "name": "Thanos",
+	  "salary": "500000",
 	  "powerstats": {
 	    "intelligence": "100",
 	    "strength": "100",
@@ -216,6 +220,7 @@ export const VILLAINS = {
 	2:  {
       "id": "423",
       "name": "Magneto",
+      "salary": "130000",
       "powerstats": {
         "intelligence": "88",
         "strength": "80",
@@ -268,6 +273,7 @@ export const VILLAINS = {
     3: {
       "id": "222",
       "name": "Doctor Doom",
+      "salary": "95000",
       "powerstats": {
         "intelligence": "100",
         "strength": "32",
