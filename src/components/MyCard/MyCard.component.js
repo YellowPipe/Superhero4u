@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { connect } from 'react-redux';
+
 import './MyCard.styles.css';
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import PowerBar from '../PowerBar/PowerBar.component';
+
+import { addItem } from '../../redux/cart/cart.actions';
 
 class MyCard extends React.Component {
 	constructor(props) {
@@ -20,6 +24,11 @@ class MyCard extends React.Component {
 
 	toggleHidden = () => {
 		return { overlayHidden: !this.state.overlayHidden }
+	};
+
+	handleClick = () => {
+		const { name, salary, id } = this.props
+		this.props.addItem({name, salary, id});
 	};
 
 	render() {
@@ -39,11 +48,11 @@ class MyCard extends React.Component {
 					<Card.Text>
 						${salary} per year
 					</Card.Text>
-					<Button className='px-5' size="lg" variant="info">Hire</Button>
+					<Button onClick={this.handleClick} className='px-5' size="lg" variant="info">Hire</Button>
 				</Card.ImgOverlay>
 			</Card>
 		)
 	}
 };
 
-export default MyCard;
+export default connect(null, { addItem })(MyCard);

@@ -1,0 +1,10 @@
+.cart-item {
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+}
+
+.remove-icon {
+	cursor: pointer;
+}
