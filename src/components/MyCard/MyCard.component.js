@@ -37,7 +37,7 @@ class MyCard extends React.Component {
 						<PowerBar powerstats={powerstats} />
 					</Card.Text>
 					<Card.Text>
-						<h5>${salary} per year</h5>
+						${salary} per year
 					</Card.Text>
 					<Button className='px-5' size="lg" variant="info">Hire</Button>
 				</Card.ImgOverlay>

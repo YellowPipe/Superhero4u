@@ -11,7 +11,7 @@ const Homepage = () => (
 		<Row>
 			{
 				[1,2,3].map((i) => (
-					<Col lg ><MyCard key={HEROES[i].id} name={HEROES[i].name} salary={HEROES[i].salary} imgUrl={HEROES[i].image.url} powerstats={HEROES[i].powerstats}/></Col>
+					<Col lg key={HEROES[i].id}><MyCard  name={HEROES[i].name} salary={HEROES[i].salary} imgUrl={HEROES[i].image.url} powerstats={HEROES[i].powerstats}/></Col>
 				))
 			}
 		</Row>
@@ -19,7 +19,7 @@ const Homepage = () => (
 		<Row>
 			{
 				[1,2,3].map((i) => (
-					<Col lg ><MyCard key={VILLAINS[i].id} name={VILLAINS[i].name} salary={VILLAINS[i].salary} imgUrl={VILLAINS[i].image.url} powerstats={VILLAINS[i].powerstats}/></Col>
+					<Col lg key={VILLAINS[i].id}><MyCard  name={VILLAINS[i].name} salary={VILLAINS[i].salary} imgUrl={VILLAINS[i].image.url} powerstats={VILLAINS[i].powerstats}/></Col>
 				))
 			}
 		</Row>
