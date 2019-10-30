@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import { toggleCartHidden } from '../../redux/cart/cart.actions';
 
@@ -12,14 +13,14 @@ import Cart from '../Cart/Cart.component';
 
 const Header = ({hidden, toggleCartHidden}) => (
 	<Navbar bg="danger" variant="dark">
-	    <Navbar.Brand href="#home">
-	      	<Logo width="25pt" height="25pt" />
+		<Link to='/' className='navbar-brand'>
+	      <Logo width="25pt" height="25pt" />
 	      <span className='ml-2'>Heroes4U</span>
-	    </Navbar.Brand>
+	    </Link>
 	    <Nav className="ml-auto">
-	      <Nav.Link>Home</Nav.Link>
-	      <Nav.Link>My page</Nav.Link>
-	      <Nav.Link>Contact</Nav.Link>
+	      <Link className='nav-link' to='/'>Home</Link>
+	      <Link className='nav-link' to='/shop'>Shop</Link>
+	      <Link className='nav-link' to='/mypage'>My page</Link>
 	      <Nav.Link><CartIcon onClick={toggleCartHidden} width="25pt" height="15pt"/></Nav.Link>
 	    </Nav>
 	    {
