@@ -1,1 +1,1 @@
-export const SUPERHEROES_URL = 'https://superheroapi.com/api/2446536712283692';
+export const categories = ["Popular", "Powerful", "Strong" , "Fast"];
