@@ -8,8 +8,8 @@ const ShopSection = ({title, heroes}) => (
 		<Row>
 			{
 				heroes.map(hero => (
-					<Col>
-						<MyCard key={hero.id} id={hero.id} imgUrl={hero.image.url} name={hero.name} powerstats={hero.powerstats} salary={hero.salary} />
+					<Col key={hero.id} >
+						<MyCard id={hero.id} imgUrl={hero.image.url} name={hero.name} powerstats={hero.powerstats} salary={hero.salary} />
 					</Col>
 				))
 			}

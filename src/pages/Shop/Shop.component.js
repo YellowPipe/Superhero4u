@@ -9,8 +9,8 @@ const Shop = () => {
 	return (
 		<Container>
 		{
-			categories.map(category => (
-				<ShopSection title={category} heroes={[HEROES[1], HEROES[2], HEROES[3], VILLAINS[1]]} />
+			categories.map((category, i) => (
+				<ShopSection key={i} title={category} heroes={[HEROES[1], HEROES[2], HEROES[3], VILLAINS[1]]} />
 			))
 		}
 		</Container>
