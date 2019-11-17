@@ -12,7 +12,7 @@ const Shop = ({ match }) => {
 	return (
 		<div>
 			<Route exact path={match.path} component={ShopSectionsOverview} />
-			<Route path={`${match.path}/:sectionId`} render={(props) => <ShopSection title={match.path} heroes={[HEROES[1], HEROES[2], HEROES[3], VILLAINS[1], VILLAINS[1], VILLAINS[3], VILLAINS[2]]} />}/>
+			<Route path={`${match.path}/:sectionId`} render={(props) => <ShopSection title={match.path} />}/>
 		</div>
 	);
 };

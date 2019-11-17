@@ -42,7 +42,7 @@ class MyCard extends React.Component {
 					className={ this.state.overlayHidden ? "d-none" : null }
           		>
 					<h1>{name}</h1>
-					<Card.Text className="my-3">
+					<Card.Text className="my-1">
 						<PowerBar powerstats={powerstats} />
 					</Card.Text>
 					<Card.Text>
