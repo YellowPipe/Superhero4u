@@ -1,20 +1,17 @@
 import React from 'react';
 import ShopSection from '../ShopSection/ShopSection.component';
-import { HEROES, VILLAINS } from '../../constants/heroes';
+import CardRow from '../CardRow/CardRow.component';
 import { categories } from '../../constants/constants';
-import Container from 'react-bootstrap/Container'; 
+import { HEROES, VILLAINS } from '../../constants/heroes';
 
-
-const ShopSectionsOverview = () => {
-	return (
-		<Container>
+const ShopSectionsOverview = () => (
+		<div>
 		{
 			categories.map((category, i) => (
-				<ShopSection key={i} title={category} heroes={[HEROES[1], HEROES[2], HEROES[3], VILLAINS[1]]} />
+				<CardRow key={i} category={category} heroes={[HEROES[1],HEROES[2],HEROES[3]]}/>
 			))
 		}
-		</Container>
+		</div>
 	);
-};
 
 export default ShopSectionsOverview;

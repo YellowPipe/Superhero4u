@@ -8,18 +8,23 @@ import Shop from './pages/Shop/Shop.component';
 import MyPage from './pages/MyPage/MyPage.component';
 import Header from './components/Header/Header.component';
 
+import Container from 'react-bootstrap/Container';
+
+
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className='app'>
     	<Header />
-    	<Switch>
-    		<Route exact path='/' component={Homepage} />
-    		<Route exact path='/checkout' component={Checkout} />
-    		<Route exact path='/mypage' component={MyPage} />
-    		<Route path='/shop' component={Shop} />
-		</Switch>
+        <Container className='my-3'>
+        	<Switch>
+        		<Route exact path='/' component={Homepage} />
+        		<Route exact path='/checkout' component={Checkout} />
+        		<Route exact path='/mypage' component={MyPage} />
+        		<Route path='/shop' component={Shop} />
+    		</Switch>
+        </Container>
     </div>
   );
 };

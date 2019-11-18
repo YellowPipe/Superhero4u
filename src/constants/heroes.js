@@ -50,9 +50,9 @@ export const HEROES = {
 		    "group-affiliation": "Justice League of America, The Legion of Super-Heroes (pre-Crisis as Superboy); Justice Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis Earth-2 version)",
 		    "relatives": "Lois Lane (wife), Jor-El (father, deceased), Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle, deceased), Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin), Superboy (Kon-El/Conner Kent, partial clone)"
 		  },
-		  "image": {
-		    "url": "https://www.superherodb.com/pictures2/portraits/10/100/791.jpg"
-		  }
+		  "image":
+		    "https://www.superherodb.com/pictures2/portraits/10/100/791.jpg"
+		  
 		},
 	2: {
 	      "id": "346",
@@ -104,9 +104,9 @@ export const HEROES = {
 	        "group-affiliation": "Avengers, Illuminati, Stark Resilient; formerly S.H.I.E.L.D., leader of Stark Enterprises, the Pro-Registration Superhero Unit, New Avengers, Mighty Avengers, Hellfire Club, Force Works, Avengers West Coast, United States Department of Defense.",
 	        "relatives": "Howard Anthony Stark (father, deceased), Maria Stark (mother, deceased), Morgan Stark (cousin), Isaac Stark (ancestor)"
 	      },
-	      "image": {
-	        "url": "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg"
-	      }
+	      "image":
+	        "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg"
+	      
 	    },
 	3: {
       "id": "69",
@@ -157,9 +157,9 @@ export const HEROES = {
         "group-affiliation": "Batman Family, Justice League Unlimited",
         "relatives": "Bruce Wayne (biological father), Warren McGinnis (father, deceased), Mary McGinnis (mother), Matt McGinnis (brother)"
       },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
-      }
+      "image":
+        "https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
+      
     }
 };
 
@@ -213,9 +213,9 @@ export const VILLAINS = {
 	    "group-affiliation": "Zodiac (ally); formerly Infinity Watch, Defenders",
 	    "relatives": "A'Lars (father): Sui-San (mother, deceased; Eros (brother);Kronos (paternal Grandfather, deceased); Daina (paternal grandmother, deceased); Zuras (uncle, deceased); Thena (cousin); Gamora (foster daughter);Nebula (alleged granddaughter); Rot (\"child\" by Death);"
 	  },
-	  "image": {
-	    "url": "https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg"
-	  }
+	  "image":
+	    "https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg"
+	  
 	},
 	2:  {
       "id": "423",
@@ -266,9 +266,9 @@ export const VILLAINS = {
         "group-affiliation": "Currently None, formerly Brotherhood of Evil Mutants I and II, X-Men, teacher of the New Mutants, Lords Cardinal of the Hellfire Club, leader of the Acolytes",
         "relatives": "Magda (wife, deceased), Anya (daughter, deceased), Pietro Maximoff (Quicksilver, son), Wanda Maximoff (Scarlet Witch, daughter), Lorna Dane (Polaris, daughter), Joseph (clone, deceased), Luna (granddaughter)"
       },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/12.jpg"
-      }
+      "image":
+        "https://www.superherodb.com/pictures2/portraits/10/100/12.jpg"
+      
     },
     3: {
       "id": "222",
@@ -316,8 +316,8 @@ export const VILLAINS = {
         "group-affiliation": "Future Foundation; Formerly Cabal, Knights of the Atomic Table, Acts of Vengeance Prime Movers, partner of Namor, employer of the Terrible Trio, Fantastic Four (leader)",
         "relatives": "Werner von Doom (father, deceased), Cynthia von Doom (mother, deceased); Kang the Conqueror, his counterparts, and offspring (alleged descendants), Kristoff Vernard (Doctor Doom II, adopted son), Dr Bob Doom (distant cousin), Boris (unofficially adoptive father/guardian), Valeria von Doom (daughter from alternate universe; became baby of Susan Richards and is now called Valeria Richards)"
       },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/189.jpg"
-      }
+      "image":
+        "https://www.superherodb.com/pictures2/portraits/10/100/189.jpg"
+      
     }
 }
