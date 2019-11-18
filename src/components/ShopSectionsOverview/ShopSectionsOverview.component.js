@@ -1,8 +1,7 @@
 import React from 'react';
-import ShopSection from '../ShopSection/ShopSection.component';
 import CardRow from '../CardRow/CardRow.component';
 import { categories } from '../../constants/constants';
-import { HEROES, VILLAINS } from '../../constants/heroes';
+import { HEROES } from '../../constants/heroes';
 
 const ShopSectionsOverview = () => (
 		<div>

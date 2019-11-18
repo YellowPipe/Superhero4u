@@ -1,10 +1,14 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
+
+import './CardRow.styles.css';
+
 import Row from 'react-bootstrap/Row';
 import MyCard from '../MyCard/MyCard.component';
 
-const CardRow = ({category, heroes}) => (
+const CardRow = ({category, heroes, history, match}) => (
 	<div>
-		<h1 className="pl-3 mt-3">{category}</h1>
+		<h1 onClick={ () => history.push(`${match.url}/${category}`) } className="pl-3 mt-3 title">{category}</h1>
 		<Row>
 			{
 				heroes.map((hero) => (
@@ -23,4 +27,4 @@ const CardRow = ({category, heroes}) => (
 	</div>
 );
 
-export default CardRow;
+export default withRouter(CardRow);

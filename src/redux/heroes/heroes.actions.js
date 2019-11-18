@@ -17,11 +17,11 @@ export const setHeroesFailure = (error) => ({
 	payload: error
 });
 
-export const setHeroes = () => {
+export const setHeroes = (category, limit = 10) => {
 	return dispatch => {
     	dispatch(setHeroesBegin());
-    	return fetch(`${API_URL}/heroes`, {
-	      method: 'GET'
+    	return fetch(`${API_URL}/heroes/${category}/${limit}`, {
+	      	method: 'GET',
 	    })
       	.then(res => res.json())
       	.then(heroes => {
